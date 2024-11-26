@@ -25,7 +25,7 @@ Data Handling: Uses Django’s ORM to perform CRUD operations on weather data.
 Getting Started
 To get started with the Weather Analysis Tool, follow these instructions:
 
-##Prerequisites
+## Prerequisites
 Python 3.x
 Django
 Django REST Framework
@@ -34,25 +34,26 @@ SQLite (default)
 Installation
 Clone the repository to your local machine:
 
-##bash
+## bash
 git clone <repository-url>  
 cd weather_analysis  
 Create a virtual environment and activate it:
 
-##bash
+## bash
 python -m venv venv  
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`  
 Install the required packages:
 
-##bash
+## bash
 pip install -r requirements.txt  
 Run the database migrations:
 
-##bash
+## bash
 python manage.py migrate  
 Start the development server:
 
-##bash
+## bash
 python manage.py runserver  
-Usage
+
+## Usage
 Visit http://127.0.0.1:8000 in your web browser to access the Weather Analysis Tool. Start by entering a location to fetch historical weather data and visualize it
