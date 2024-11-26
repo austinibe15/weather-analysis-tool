@@ -57,3 +57,5 @@ python manage.py runserver
 
 ## Usage
 Visit http://127.0.0.1:8000 in your web browser to access the Weather Analysis Tool. Start by entering a location to fetch historical weather data and visualize it
+
+## For further enquiries contact me through email:austinibe15@gmail.com
